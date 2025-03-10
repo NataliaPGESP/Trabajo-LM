@@ -55,7 +55,7 @@ ul{
 }
 
 
-#barranav { width: 900px; margin-left: 280px; margin-top: 20px;}
+#barranav { width: 900px; margin-left: 290px; margin-top: 20px;}
 
 a:link, a:visited, a:hover, a:active {color: inherit; text-decoration: none;}
 
@@ -439,7 +439,7 @@ td {
 /* SECCIÓN CONTACTO*/
 
 .contacto {
-    margin-top: 100px;
+    margin-top: 80px;
     font-family: 'Karla';
     font-style: normal;
     font-weight: 200;
@@ -543,10 +543,11 @@ iframe {
     margin-right: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
+    box-shadow: 4px 4px 10px rgba(98, 172, 221, 0.5);
 }
 
 .input-datospersonales {
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     margin-left: 50px;
@@ -554,32 +555,29 @@ iframe {
     height: 500px;
 }
 
+
 #datospersonales, #formacion, #idiomas { /*LEGEND*/
     margin-left: 50px;
     font-size: 30px;
 }
 
-#nacionalidad, #telefono, #ciudad, #fecha, #dni, #nombre, #apellidos, #codigopostal { /*TAMAÑO INPUTS*/
+#nacionalidad, #telefono2, #ciudad, #fecha, #dni, #nombre, #apellidos, #codigopostal { /*TAMAÑO INPUTS*/
     width: 250px;
 }
 
-#sexo {
-    margin-left: 35px;
-}
+#sexohombre {margin-left: 30px;}
 
-#mail {
-    width: 550px;
-}
+#sexomujer{margin-left: 30px;}
 
 
-#apellidos, #codigopostal {
-    margin-right: 50px ;
-}
+#mail2 {width: 550px;}
+
+
+#apellidos, #codigopostal { margin-right: 50px ;}
 
 .nombre-apellidos {
     display: flex;
     justify-content: space-between;
-   
 } 
 
 .nombre-apellidos div {
@@ -587,15 +585,11 @@ iframe {
     flex-direction: column;
 }
 
-.nombre-apellidos label {
-    margin-bottom: 5px;
-
-}
+.nombre-apellidos label {margin-bottom: 5px;}
 
 .ciudad-codigopostal {
     display: flex;
     justify-content: space-between;
-    
 }
 
 .ciudad-codigopostal div {
@@ -618,6 +612,7 @@ iframe {
     margin-bottom: 30px;
     margin-left: 10px;
     width: 650px;
+    box-shadow: 4px 4px 10px rgba(98, 172, 221, 0.5);
 }
 
 .input-titulos {
@@ -673,13 +668,9 @@ iframe {
     flex-direction: column;
 }
 
-#inicio1, #inicio2, #inicio3 {
-    width: 60px;
-}
+#inicio1, #inicio2, #inicio3 {width: 60px;}
 
-#final1, #final2, #final3 {
-    width: 60px;
-}
+#final1, #final2, #final3 {width: 60px;}
 
 #titulo1, #titulo2, #titulo3 {
     width: 400px;
@@ -695,6 +686,7 @@ iframe {
     margin-right: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
+    box-shadow: 4px 4px 10px rgba(98, 172, 221, 0.5);
 }
 
 .input-idiomas {
@@ -742,10 +734,10 @@ iframe {
  /* AQUÍ EMPIEZA EL FOOTER*/
 
 footer {
-    height: 200px;
+    height: 160px;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(165, 192, 233);
+    background-color: rgba(170, 197, 215);
     margin-top: 50px;
     font-family: 'Karla';
     font-style: normal;
@@ -755,7 +747,7 @@ footer {
     display: flex;
     flex-direction: column;
     width: 250px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 450px;
 }
 
@@ -774,14 +766,14 @@ footer {
   width: 1px; /* Grosor de la barra */
   height: 70px; /* Altura de la barra */
   background-color: black; /* Color de la barra */
-  margin-top: 105px;
+  margin-top: 55px;
 }
 
 .derechos {
     text-align: center;
     width: 450px;
     height: 30px;
-    margin-top: 155px;
+    margin-top: 105px;
     margin-right: 400px; 
 }
 
