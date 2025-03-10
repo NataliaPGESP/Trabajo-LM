@@ -93,7 +93,7 @@
         <section class="quienessomos">
 
             <div class="titulosomos">
-                <h1 id="somosh1">Quienes somos</h3>
+                <h1 id="somosh1">Quienes somos</h1>
                     <hr id="barra2">
             </div>
 
@@ -214,8 +214,8 @@
                 <form>
                     <div class="input-datoscontacto">
 
-                        <label for="nombre">Nombre</label>
-                        <input type="text" id="nombre" name="nombre" required>
+                        <label for="nombreapellidos">Nombre</label>
+                        <input type="text" id="nombreapellidos" name="nombreapellidos" required>
                         <br><br>
 
                         <label for="email">Email</label>
@@ -287,12 +287,16 @@
 
                         <label for="dni">Dni</label>
                         <input type="text" id="dni" name="dni" required><br>
-                        <label for="sexo">Sexo
-                            <input type="radio" id="sexo" name="sexo" value="h">Hombre
-                            <input type="radio" id="sexo" name="sexo" value="m">Mujer</label> <br>
+                        <div>
+                            <label for="sexohombre">Sexo
+                                <input type="radio" id="sexohombre" name="sexohombre" value="h">Hombre</label>
+                            <label for="sexo">Sexo
+                                <input type="radio" id="sexomujer" name="sexo" value="m">Mujer</label>
+                        </div>
+                         <br>
 
                         <label for="fecha">Fecha de nacimiento</label>
-                        <input type="fecha" id="fecha" name="fecha" required><br>
+                        <input type="date" id="fecha" name="fecha" required><br>
 
                         <div class="ciudad-codigopostal">
 
@@ -311,10 +315,10 @@
 
                         <label for="nacionalidad">Nacionalidad </label>
                         <input type="text" id="nacionalidad" name="nacionalidad" required><br>
-                        <label for="telefono">Teléfono</label>
-                        <input type="tel" id="telefono" name="nombre" required><br>
-                        <label for="mail">Mail</label>
-                        <input type="mail" id="mail" name="mail" required><br>
+                        <label for="telefono2">Teléfono</label>
+                        <input type="tel" id="telefono2" name="telefono2" required><br>
+                        <label for="mail2">Mail</label>
+                        <input type="text" id="mail2" name="mail2" required><br>
 
                     </div>
 
@@ -329,12 +333,12 @@
 
                             <div>
                                 <label for="título1">Título</label>
-                                <input type="text" id="titulo1" name="titulo" required>
+                                <input type="text" id="titulo1" name="titulo1" required>
                             </div>
 
                             <div>
                                 <label for="inicio1">Inicio</label>
-                                <input type="text" id="inicio1" required>
+                                <input type="text" id="inicio1"  required>
                             </div>
 
                             <div>
@@ -433,8 +437,8 @@
                             </div>
 
                             <div>
-                                <label for="escrito">Ecrito</label>
-                                <select name="opciones" id="escrito" size="4">
+                                <label for="escrito1">Ecrito</label>
+                                <select name="opciones" id="escrito1" size="4">
                                     <option value="1">Excelente</option>
                                     <option value="2">Bien</option>
                                     <option value="3">Regular</option>
@@ -443,8 +447,8 @@
                             </div>
 
                             <div>
-                                <label for="hablado">Hablado</label>
-                                <select name="opciones" id="hablado" size="4">
+                                <label for="hablado1">Hablado</label>
+                                <select name="opciones" id="hablado1" size="4">
                                     <option value="1">Excelente</option>
                                     <option value="2">Bien</option>
                                     <option value="3">Regular</option>
@@ -453,8 +457,8 @@
                             </div>
 
                             <div>
-                                <label for="leido">Leído</label>
-                                <select name="opciones" id="leido" size="4">
+                                <label for="leido1">Leído</label>
+                                <select name="opciones" id="leido1" size="4">
                                     <option value="1">Excelente</option>
                                     <option value="2">Bien</option>
                                     <option value="3">Regular</option>
