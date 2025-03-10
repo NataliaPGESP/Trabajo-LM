@@ -22,7 +22,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 120px;
+    height: 110px;
     position: fixed;
     z-index: 6;
     width: 100%;
@@ -742,9 +742,10 @@ iframe {
  /* AQUÍ EMPIEZA EL FOOTER*/
 
 footer {
-    height: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
     background-color: rgb(165, 192, 233);
-    border: 1px solid black;
     margin-top: 50px;
     font-family: 'Karla';
     font-style: normal;
@@ -753,22 +754,40 @@ footer {
 .footer-vectores {
     display: flex;
     flex-direction: column;
-    margin-left: 1100px;
-    width: 300px;
-    margin-top: 50px;
-    border: 1px solid black;
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 450px;
 }
 
 .footer-vectores p{
     margin-bottom: 15px;
-    font-size: 20px;
-    font-weight: 700px;
+    font-size: 18px;
+    font-weight: 100px;
+}
+
+.footer-img{
+   display: flex;
+   justify-content: space-between;
+}
+
+.vertical-bar{
+  width: 1px; /* Grosor de la barra */
+  height: 70px; /* Altura de la barra */
+  background-color: black; /* Color de la barra */
+  margin-top: 105px;
 }
 
 .derechos {
-    border: 1px solid black;
-    margin-top: 90px;
     text-align: center;
+    width: 450px;
+    height: 30px;
+    margin-top: 155px;
+    margin-right: 400px; 
+}
+
+.derechos p{
+    font-size: 14px;
+    font-weight: 100px;
 }
 
 
